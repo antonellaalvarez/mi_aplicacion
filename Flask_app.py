@@ -68,6 +68,18 @@ def detalle_fondo(run):
     print(run)
     return render_template('detalle-fondo.html', table_data=get_detalle_fondo(run), table_series=get_series(run))
 
+
+@app.route('/integrantes-grupo')
+def integrantes():
+    integrantes = [
+        "Antonella Álvarez",
+        "Matias Galaz",
+        "Ornella Gamboni",
+        "Javiera Leiva",
+        "Bastián Olivares"
+    ]
+    return render_template('integrantes_grupo.html')
+
 # Funciones
 def get_rentabilidades(df):
     df['Run Fondo'] = df["Run Fondo"].apply(crear_enlace)
