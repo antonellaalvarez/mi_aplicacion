@@ -2,21 +2,22 @@
     ESTILO PARA UNA PÁGINA DE FINANZAS
 */
 
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Sharp+Alt+Heavy";
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sharp Alt Heavy', sans-serif;
     background: #f4f4f4;
     color: #333;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sharp Alt Heavy', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
     color: #555;
 }
+
 
 a,
 a:hover,
