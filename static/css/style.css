@@ -60,7 +60,7 @@ a:focus {
     min-width: 250px;
     max-width: 250px;
     background: #C7F8FF;
-    color: #fff;
+    color: #fff; /* Cambio de color aquí */
     transition: all 0.3s;
     height: 100vh;
 }
@@ -371,5 +371,5 @@ label{
 }
 
 .asidebar {
-    color: #ddd;
+    color: #180076; /* Cambio de color aquí */
 }
