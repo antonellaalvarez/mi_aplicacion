@@ -2,16 +2,16 @@
     ESTILO PARA UNA PÁGINA DE FINANZAS
 */
 
-@import "https://fonts.googleapis.com/css?family=Merriweather";
+@import "https://fonts.googleapis.com/css?family=Sharp+Alt+Heavy";
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Sharp Alt Heavy', sans-serif;
     background: #f4f4f4;
     color: #333;
 }
 
 p {
-    font-family: 'Merriweather', serif;
+    font-family: 'Sharp Alt Heavy', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
@@ -372,16 +372,4 @@ label{
 
 .asidebar {
     color: #180076; /* Cambio de color aquí */
-}
-.logo-container {
-    position: fixed;
-    bottom: 150px; /* Adjust as needed */
-    left: 20px;   /* Adjust as needed */
-    z-index: 1000; /* Make sure it's above other elements */
-}
-
-.logo-container img {
-    width: 200px; /* Adjust the width as needed */
-    height: auto;
-    border-radius: 5px; /* Optional: Add some border-radius */
 }
