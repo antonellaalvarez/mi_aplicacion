@@ -385,3 +385,24 @@ label{
     height: auto;
     border-radius: 5px; /* Optional: Add some border-radius */
 }
+/* Agrega estos estilos al final de tu archivo CSS */
+.integrantes-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una línea */
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 50vh;
+}
+
+.integrante {
+    text-align: center;
+    width: 200px; /* Ancho fijo para cada integrante */
+    margin-bottom: 5px !important;/* Espaciado entre los integrantes */
+}
+
+.integrante img {
+    width: 200px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 200px;
+    border-radius: 10%; /* Opcional: Agrega bordes redondeados a las imágenes */
+    margin-bottom: 10px; /* Espaciado entre la imagen y el nombre */
+}

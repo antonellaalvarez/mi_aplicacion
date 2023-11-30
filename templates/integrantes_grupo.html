@@ -3,16 +3,30 @@
 
 {% block content %}
     <h1>Integrantes del Grupo</h1>
-    <ul>
-        <li>Antonella Álvarez</li>
-        <li>Matias Galaz</li>
-        <li>Ornella Gamboni</li>
-        <li>Javiera Leiva</li>
-        <li>Bastián Olivares</li>
-    </ul>
+    <div class="integrantes-container">
+        <div class="integrante">
+            <img src="{{ url_for('static', filename='css/images/antonella.jpg') }}" alt="Antonella Álvarez">
+            <p>Antonella Álvarez</p>
+        </div>
+        <div class="integrante">
+            <img src="{{ url_for('static', filename='css/images/matias.jpg') }}" alt="Matias Galaz">
+            <p>Matias Galaz</p>
+        </div>
+        <div class="integrante">
+            <img src="{{ url_for('static', filename='css/images/ornella.jpg') }}" alt="Ornella Gamboni">
+            <p>Ornella Gamboni</p>
+        </div>
+        <div class="integrante">
+            <img src="{{ url_for('static', filename='css/images/javiera.jpg') }}" alt="Javiera Leiva">
+            <p>Javiera Leiva</p>
+        </div>
+        <div class="integrante">
+            <img src="{{ url_for('static', filename='css/images/bastian.jpg') }}" alt="Bastián Olivares">
+            <p>Bastián Olivares</p>
+        </div>
+    </div>
 
     <div class="contenedor">
         {{ html|safe }}
     </div>
 {% endblock %}
-
